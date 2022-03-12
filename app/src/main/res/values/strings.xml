@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FindSomethingTodo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item">Item</string>
+    <string name="home">Home</string>
+
+    <string name="activity">Activity</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_contentdescription">image_contentDescription</string>
+
+    <string name="accessibility">accessibility</string>
+    <string name="participants">participants</string>
+
+    <string name="type">type</string>
+
+    <string name="price">price</string>
+    <string name="see_more_details">see_more_details</string>
+    <string name="are_you_bored">Are you bored?</string>
+    <string name="image">image</string>
+    <string name="find_something_interesting_to_do_right_now">Find something interesting to do. Right Now</string>
+</resources>

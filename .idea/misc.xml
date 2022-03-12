@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/favorite_button_background.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_baseline_local_activity_24.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_favorite_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/drawable/ic_more.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/dialog_custom_progress.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/fragment_activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/layout/fragment_random_activitiy.xml" value="0.1" />
+        <entry key="..\:/Users/Sedanur/AndroidStudioProjects/FindSomethingTodo/app/src/main/res/menu/nav_bottom.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

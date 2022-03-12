@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/favoriteFragment"
+        android:enabled="true"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favorite"/>
+    <item
+        android:id="@+id/randomActivitiyFragment"
+        android:enabled="true"
+        android:title="@string/activity"
+        android:icon="@drawable/ic_baseline_local_activity_24"/>
+</menu>

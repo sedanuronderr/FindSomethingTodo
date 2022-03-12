@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.findsomethingtodo.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/randomActivitiyFragment"
+        android:name="com.example.findsomethingtodo.fragments.RandomActivitiyFragment"
+        android:label="Random"
+        tools:layout="@layout/fragment_random_activitiy" >
+        <action
+            android:id="@+id/action_randomActivitiyFragment_to_activityDetailFragment"
+            app:destination="@id/activityDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.findsomethingtodo.fragments.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite"
+   >
+        <action
+            android:id="@+id/action_favoriteFragment_to_activityDetailFragment"
+            app:destination="@id/activityDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activityDetailFragment"
+        android:name="com.example.findsomethingtodo.fragments.ActivityDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_activity_detail" >
+        <action
+            android:id="@+id/action_activityDetailFragment_to_randomActivitiyFragment"
+            app:destination="@id/randomActivitiyFragment" />
+        <action
+            android:id="@+id/action_activityDetailFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <argument
+            android:name="randomActivity"
+            app:argType="com.example.findsomethingtodo.model.RandomActivity"
+            app:nullable="true" />
+    </fragment>
+</navigation>
